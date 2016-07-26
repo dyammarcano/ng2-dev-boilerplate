@@ -1,0 +1,20 @@
+/* tslint:disable:no-unused-variable */
+
+import { By }           from '@angular/platform-browser';
+import { DebugElement } from '@angular/core';
+
+import {
+  beforeEach, beforeEachProviders,
+  describe, xdescribe,
+  expect, it, xit,
+  async, inject
+} from '@angular/core/testing';
+
+import { DeleteComponent } from './delete.component';
+
+describe('Component: Delete', () => {
+  it('should create an instance', () => {
+    let component = new DeleteComponent();
+    expect(component).toBeTruthy();
+  });
+});
