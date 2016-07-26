@@ -1,4 +1,4 @@
-export class UntitledFolderPage {
+export class BetaPage {
   navigateTo() {
     return browser.get('/');
   }

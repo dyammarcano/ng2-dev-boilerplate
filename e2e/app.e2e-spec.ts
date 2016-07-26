@@ -1,10 +1,10 @@
-import { UntitledFolderPage } from './app.po';
+import { BetaPage } from './app.po';
 
-describe('untitled-folder App', function() {
-  let page: UntitledFolderPage;
+describe('beta App', function() {
+  let page: BetaPage;
 
   beforeEach(() => {
-    page = new UntitledFolderPage();
+    page = new BetaPage();
   });
 
   it('should display message saying app works', () => {
