@@ -15,6 +15,7 @@
 *.launch
 .settings/
 *.log
+npm-debug.log
 
 # misc
 /.sass-cache
