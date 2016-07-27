@@ -25,7 +25,7 @@
 
 </nav>
 
-<div class="container">
+<!-- <div class="container">
 
   <div class="jumbotron">
     <h1 class="display-3">Hello, world!</h1>
@@ -129,12 +129,13 @@
     </div>
   </div>
 
-  <h1>
-    <alert type="info">{{title}}</alert>
-  </h1>
-
   <p>{{ f.value | json }}</p>
 
   <p>{{ q.value }}</p>
 
-</div>
+  <alert type="info">{{ title }} from ng2-bootstrap  {{ date.toDateString() }}</alert>
+  <div style="display:inline-block; min-height:290px;">
+    <datepicker [(ngModel)]="date" showWeeks="true"></datepicker>
+  </div>
+
+</div> -->
